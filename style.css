@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #404258;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+.chiziq {
+  background: white;
+  width: 4px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(60deg);
+}
+.box {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  left: -400%;
+  transform: translate(-50%, -50%);
+  animation: box 4s infinite;
+}
+
+@keyframes box {
+  0% {
+    top: calc(100% - 15px);
+    transform: translate(-50%, -50%) rotate(-350deg);
+    animation-timing-function: ease-out;
+  }
+  62% {
+    top: 0;
+    transform: translate(-50%, -50%) rotate(50deg);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: calc(100% - 15px);
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}

@@ -1,0 +1,113 @@
+.asosiy {
+  width: 1000px;
+  height: 600px;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: blueviolet;
+}
+body {
+  background: wheat;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 3%;
+}
+p {
+  font-size: 50px;
+  text-align: end;
+  font-weight: bold;
+  padding: 10px;
+}
+div {
+  border: 1px solid rgb(181, 175, 175);
+}
+.birinchi,
+.ikkinchi {
+  width: 500px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 200px 300px;
+}
+.bir__1,
+.ikki__1,
+.uch__1,
+.tort__1 {
+  display: grid;
+  grid-template-rows: 180px 120px;
+}
+.bir__1__1,
+.tort__2__1__1 {
+  background: #8bcf8b;
+}
+
+.ikki__1__1,
+.bir__1__2,
+.tort__1__1 {
+  background: #9fb454;
+}
+
+.bir__2__1__1,
+.ikki__2__1__1,
+.ikki__1__2,
+.ikki__2__2__1,
+.uch__2__2__1,
+.bir__2__2__1,
+.uch__2__2__2,
+.uch__2__1__2,
+.uch__1__1,
+.uch__1__2,
+.ikki__2__2__2,
+.tort__2__2__2,
+.tort__2__1__2,
+.tort__1__2 {
+  background: wheat;
+}
+
+.bir__2,
+.ikki__2,
+.uch__2,
+.tort__2 {
+  display: grid;
+  grid-template-rows: 120px 180px;
+}
+.bir__2__1,
+.ikki__2__1,
+.uch__2__1,
+.tort__2__1 {
+  display: grid;
+  grid-template-columns: 180px 120px;
+}
+
+.uch__2__1__1,
+.bir__2__1__2,
+.ikki__2__2__1 {
+  background: rgb(97, 144, 215);
+}
+
+.tort__2__2__1,
+.ikki__2__1__2,
+.bir__2__2__2 {
+  background: pink;
+}
+.bir__2__2,
+.ikki__2__2,
+.uch__2__2,
+.tort__2__2 {
+  display: grid;
+  grid-template-columns: 90px 210px;
+}
+
+.uchinchi,
+.turtinchi {
+  width: 500px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 300px 200px;
+}
